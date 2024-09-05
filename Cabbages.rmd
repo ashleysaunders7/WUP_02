@@ -37,6 +37,7 @@ veggy <- cabbages
 ```{r}
 boxplot(VitC~Cult,data=veggy)
 ```
+
 Based on the graphical results shown from this boxplot, we can conclude that Cult 52 has a significantly higher amount of Vitamin C that Cult 39, with c39 having an IQR of around 45 to 55 VitC, while c52 has an IQR of around 58 to 70 VitC.
 
 ## Descriptive Results
@@ -50,7 +51,10 @@ The Numerical result patterns show a notable difference between Cult 39 and Cult
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
-
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+The hypothesis we can conclude is that the p-value of Vitamin C by Cult is 3.405e-08, t = -6.3909, and df = 56.376, with a 95 percent confidence interval. The t-test satisfys the assumptions and is appropriate for this procedure because it efficiently determines the correlation coefficient, so with this test, we can conclude that the assumptions are correct because we can see that the mean is significantly lower for c39 at 51.5 while c52 has a mean much higher at 64.4.  
 
 # Discussion and Conclusion
 
