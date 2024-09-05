@@ -59,3 +59,4 @@ The hypothesis we can conclude is that the p-value of Vitamin C by Cult is 3.405
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+Throughout this assignment, we utilized the T-test and Boxplot in order to determine Vitamin C levels for Cult 39 and Cult 52. With these procedures, we conclude that Cult 39 has a significantly lower amount of Vitamion C than Cult 52. We can come to this conclusion because the evidence from our procedures clearly state that C39 has a mean of 51.5 which is lower than the mean of C52, being at 64.4. C39 also has a max of 68 while C 52 has a max of 84, which is significantly higher.
