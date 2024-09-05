@@ -37,7 +37,7 @@ veggy <- cabbages
 ```{r}
 boxplot(VitC~Cult,data=veggy)
 ```
-Based on the graphical results shown from this boxplot, we can conclude that Cult 52 has a significantly higher amount of Vitamin C that Cult 39.
+Based on the graphical results shown from this boxplot, we can conclude that Cult 52 has a significantly higher amount of Vitamin C that Cult 39, with c39 having an IQR of around 45 to 55 VitC, while c52 has an IQR of around 58 to 70 VitC.
 
 ## Descriptive Results
 
@@ -45,6 +45,7 @@ Based on the graphical results shown from this boxplot, we can conclude that Cul
 ```{r}
 favstats(VitC~Cult,data=veggy)
 ```
+The Numerical result patterns show a notable difference between Cult 39 and Cult 52. Cult 39 has a lower mean with it being at 51.5, while Cult 52 has a higher mean, it being at 64.4. This is the same with the median. C39 has a lower median at 51.0, while c52 has a higher median at 64.5. 
 
 ## Inferential Results
 
