@@ -37,10 +37,14 @@ veggy <- cabbages
 ```{r}
 boxplot(VitC~Cult,data=veggy)
 ```
+Based on the graphical results shown from this boxplot, we can conclude that Cult 52 has a significantly higher amount of Vitamin C that Cult 39.
 
-### Numerical Descriptive Results
+## Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
 
 ## Inferential Results
 
